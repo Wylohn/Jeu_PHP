@@ -1,0 +1,46 @@
+body {
+    background-color: #303030;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+main {
+    margin-left: 50%;
+    transform: translatex(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+button, input, select, option{
+    background: transparent;
+    border: white solid 2px;
+    padding: 10px 25px;
+    color: white;
+}
+
+option {
+    color: black;
+}
+
+button:hover, input:hover, select:hover, option:hover{
+    color: black;
+    background-color: white;
+    transition: background-color .5s;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+table, th, td {
+    border: 10px solid transparent;
+    text-align: center;
+}
+
+
+

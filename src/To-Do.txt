@@ -1,0 +1,15 @@
+10h - 10h30 : Display selected Perso top page + display all Persos & add button "Attaquer" > apply method attaquer
+			  & setup exception (if I hit myself, then don't work & return message "t'es maboule ou quoi")
+
+10h30 - 11h : Add button to go back to index.php if wanted + try to add some css or bootstrap
+
+11h - 11h30 : try to setup endormissement (dietime(), store in DB)
+
+11h30 - 12h : stop everything, refactor one last time + create doc file / readme.md
+			  create github repo + prepare send + share to server
+			  
+Make sure to add sql / docker-compose / dockerfile to git repo
+Don't forget to add readme.md with quick description of what has been done / what is left to be done
+In readme.md type once again all the group members
+In readme.md enter some setup instructions (e.g.: if error no such file or directory, try to change
+			 host "db" with host "localhost")
